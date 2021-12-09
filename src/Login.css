@@ -1,0 +1,91 @@
+.login {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.login__container h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.form h5 {
+  margin-bottom: 5px;
+}
+
+.form input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 95%;
+  border: 1px solid black;
+  outline-color: #f1c657;
+  outline-offset: 2px;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+
+.login__container p {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.login__signInButton {
+  background-color: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.login__newToAmazon {
+  margin-top: 20px;
+  width: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login__newToAmazon hr {
+  width: 30%;
+  size: 1px;
+}
+
+.login__newToAmazon span {
+  font-size: 12px;
+  font-weight: 500;
+  color: darkgray;
+}
+
+.login__registerButton {
+  border-radius: 2px;
+  width: 340px;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgrey;
+}

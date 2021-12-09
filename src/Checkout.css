@@ -1,0 +1,22 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+}
+
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout__emptyBasket {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout__emptyBasket img {
+  max-height: 200px;
+  object-fit: contain;
+}
